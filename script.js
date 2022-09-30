@@ -20,11 +20,19 @@ var letters = "abcdefghijklmnopqrstuvwxyz"
 var wins = 0
 var losses = 0
 var start = document.querySelector("#start")
+var timeLeft
+var randomNumber = function () {
+Math.floor(Math.random()*words.length)
+}
+var randomWord = words[randomNumber]
 
 start.addEventListener("click", function(){
     //start game
 })
 
-var randomWord = function (){
-    
-}
+document.addEventListener('keyup', function(event){
+    if (randomWord.includes (event.key)){
+        //make it appear in blank spaces
+    }
+    else (alert("wrong letter!"))
+})
