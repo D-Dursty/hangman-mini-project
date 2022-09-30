@@ -1,0 +1,58 @@
+* {
+    background-color: aqua;
+    color: black;
+}
+body {
+    display: block;
+    max-width: 1200px;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: right;
+}
+
+header h1 {
+    display: block;
+    width: 35%;
+    justify-content: center;
+}
+
+header button {
+    display: flex;
+    justify-content: center;
+} 
+
+#start {
+    display: block;
+    border-radius: 50px;
+    border-color: blue;
+    background-color: goldenrod;
+    color: black;
+    text-align: center;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+main {
+    display: block;
+    justify-content: center;
+    min-width: 100%;
+    max-width: 100%;
+}
+.player-box {
+    display: flex;
+    background-color: azure;
+    border-color: blue;
+    border-width: 125px;
+}
+
+
+.player-box {
+    display: flex;
+    min-width: 40%;
+    max-width: 40%;
+    justify-content: flex-end;
+ }
