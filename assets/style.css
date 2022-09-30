@@ -1,0 +1,60 @@
+* {
+    background-color: aqua;
+    color: black;
+}
+body {
+    display: flex;
+    max-width: 100%;
+}
+
+header {
+    display: block;
+    max-width: 1300px;
+    max-height: 20%;
+    padding-left: 40%;
+}
+
+header h1 {
+    display: flex;
+    min-width: 35%;
+    max-width: 40%;
+    justify-content: center;
+}
+
+header button {
+    display: flex;
+    justify-content: baseline;
+} 
+
+#start {
+    display: flex;
+    border-radius: 50px;
+    border-color: blue;
+    background-color: goldenrod;
+    color: black;
+    text-align: center;
+    justify-content:center;
+    min-width: 100%;
+    max-width: 100%;
+}
+
+main {
+    display: block;
+    justify-content: center;
+    min-width: 100%;
+    max-width: 100%;
+}
+.player-box {
+    display: flex;
+    background-color: azure;
+    border-color: blue;
+    border-width: 125px;
+
+
+
+.player-box {
+    display: flex;
+    min-width: 40%;
+    max-width: 40%;
+    justify-content: flex-end;
+    }
